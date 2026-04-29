@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested table</title>
+  </head>
+  <body>
+    <table border="1" width="50%" height="50%">
+      <caption>
+        table-1
+      </caption>
+      <tr>
+        <td rowspan="3">table1 row 1 data 1</td>
+        <td colspan="2">table1 row 1 data 2</td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" width="50%" height="50%">
+            <caption>
+              table-2
+            </caption>
+            <tr>
+              <th>E-ID</th>
+              <th>Name</th>
+              <th>Designation</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>e001</td>
+              <td>iram</td>
+              <td>HR</td>
+              <td>21</td>
+            </tr>
+          </table>
+        </td>
+        <td>table2 data 2</td>
+      </tr>
+      <tr>
+        <td>table1 row 3 data 1</td>
+        <td>table1 row 3 data 2</td>
+      </tr>
+    </table>
+  </body>
+</html>
